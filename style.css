@@ -1,0 +1,410 @@
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #0f0f0f66;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.menu-btn {
+  display: none;
+  background-color: #2E486F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+.contact-btn {
+  border: 2px solid #ff9f1c;
+  padding: 8px 16px;
+  border-radius: 30px;
+  color: #ff9f1c !important;
+  font-size: 14px !important;
+}
+
+.section {
+  max-width: 800px;
+  height: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #e26d5a, #ff9f1c, #c5c5c5, #72c6c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.email-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="email"] {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid #a1aebf;
+  border-radius: 30px;
+  background: #000;
+  color: #a1aebf;
+  font-size: 1rem;
+}
+
+.email-box input::placeholder {
+  color: #fff;
+}
+
+button {
+  background-color: #ff9f1c;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.trusted-section {
+  margin: 50px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.trusted-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.trusted-logos div {
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+}
+
+.abtImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abtImg img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.dropIcon:after {
+  content: "\2303";
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  transform: rotate(180deg);
+  margin-left: 6px;
+}
+
+.section:after {
+  content: "";
+  background: url(right.png);
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.section:before {
+  content: "";
+  background: url(left.png);
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  z-index: -1;
+}
+
+.hero {
+  background: url(bg.png);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section h1 {
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 36px;
+  overflow-y: scroll;
+  margin-left: 16px;
+}
+
+.sliderIcons {
+  font-size: 16px;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  padding: 16px;
+  margin-right: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.sliderIcons b {
+  font-size: 36px;
+}
+
+.slide-up-fade {
+  animation: slideUpFadeIn infinite;
+  overflow: hidden;
+  animation-duration: 1s;
+}
+
+h1 span {
+  opacity: 0;
+  display: inline-block;
+}
+
+.ad1 {
+  animation: fadeInSlideUp 1s ease-in-out 0.5s forwards;
+}
+
+.ad2 {
+  animation: fadeInSlideUp 1s ease-in-out 1s forwards;
+}
+
+.ad3 {
+  animation: fadeInSlideUp 1s ease-in-out 1.5s forwards;
+}
+
+.ad4 {
+  animation: fadeInSlideUp 1s ease-in-out 2s forwards;
+}
+
+.ad5 {
+  animation: fadeInSlideUp 1s ease-in-out 2.5s forwards;
+}
+
+
+li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+h2.px-3 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpFadeIn {
+  0% {
+    opacity: 0;
+    bottom: -50px;
+    display: none;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 0;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .show-menu.mobile-menu {
+    bottom: 0;
+  }
+
+  .menu-btn {
+    display: block;
+    position: fixed;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    text-align: center;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .mobile-menu ul li {
+    margin: 20px 0;
+  }
+
+  .mobile-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    background-color: #2E486F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.4s ease-in-out;
+    border-radius: 20px;
+    transform: scale(0.97);
+  }
+
+  .mobile-menu::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 50px;
+    background-color: #2E486F;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+
+  .section h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  h2.px-3 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    padding-left: 0 !important;
+  }
+
+  .abtImg {
+    padding: 0;
+  }
+
+  .icons {
+    display: flex;
+    margin-top: 36px;
+    overflow-y: hidden;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0;
+  }
+
+  .sliderIcons {
+    margin-right: 0;
+  }
+}

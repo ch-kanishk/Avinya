@@ -1,0 +1,59 @@
+# Frontend Developer Test - Kanishk
+
+## Project Overview
+This project is a simple, responsive landing page designed to attract new leads. It includes a navigation menu, a hero section with an email input form, and a section showcasing trusted companies. The design is clean, with animations for a modern look and a mobile-friendly menu for improved accessibility.
+
+## Technologies Used
+- **HTML5**: Provides the structure of the webpage.
+- **CSS3**: Handles styling, animations, and responsiveness.
+- **Bootstrap 5**: Used for layout and responsiveness.
+- **JavaScript**: Adds interactivity, such as the mobile menu toggle function.
+
+## File Structure
+- `index.html` - The main HTML structure of the page.
+- `style.css` - Handles all the styling, including layout, colors, animations, and responsive design.
+- `script.js` - Contains the JavaScript function for the mobile menu toggle.
+
+## Approach
+1. **Navigation Bar**
+   - Implemented a fixed navigation bar with a logo and menu links.
+   - Included a mobile menu that slides up on smaller screens.
+   
+2. **Hero Section**
+   - Used large, animated text to create an eye-catching call to action.
+   - Added an email input form to encourage user interaction.
+   - Used CSS animations to progressively reveal elements.
+
+3. **Animations & Responsiveness**
+   - Used CSS animations for fade-in and slide effects.
+   - Ensured the layout adjusts for different screen sizes using media queries.
+
+## Challenges & Solutions
+### 1. Responsive Mobile Menu
+- **Issue**: The menu needed to slide up and down on smaller screens.
+- **Solution**: Used JavaScript to toggle a class (`show-menu`) and control visibility using CSS transitions.
+
+### 2. Text Animation
+- **Issue**: The large heading text animation needed to appear in sequence.
+- **Solution**: Applied staggered CSS animations (`fadeInSlideUp`) to individual words.
+
+### 3. Background & Image Alignment
+- **Issue**: The `hero` section background images had to be properly aligned on different screen sizes.
+- **Solution**: Used `background-size: cover` and positioned elements carefully to maintain consistency.
+
+## Future Improvements
+- Improve the mobile menu for a smoother transition.
+- Add more interactive elements, such as hover effects.
+- Optimize performance by reducing animation load.
+
+## How to Run the Project
+Simply open the `index.html` file in a browser. Ensure `style.css` and `script.js` are linked properly for full functionality.
+
+OR
+
+Use the link below:
+https://ch-kanishk.github.io/Frontend-Developer-Test-/
+
+---
+### Author: Kanishk
+
